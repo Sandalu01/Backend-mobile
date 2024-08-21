@@ -27,6 +27,8 @@ mongoose.connect(process.env.MONGO_URI, {
 // Routes
 app.use('/api/mobiles', mobileRoutes);
 app.use('/api/users', userRoutes); 
+app.use('/api/products', productRoutes);
+app.use('/api/cart', cartRoutes);
 
 app.get('/', (req, res) => {
     res.send('Welcome to the Mobile Sell API');
