@@ -5,6 +5,10 @@ const mobileRoutes = require('./routes/mobileRoutes'); //import path from router
 const bcrypt = require('bcryptjs'); // Import bcryptjs
 const userRoutes = require('./routes/userRoutes'); // import path from routers
 const cors = require('cors'); // Import cors
+const productRoutes = require('./routes/productRoutes');
+const cartRoutes = require('./routes/cartRoutes');
+
+
 
 
 dotenv.config();
